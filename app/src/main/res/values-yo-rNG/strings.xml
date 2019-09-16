@@ -3,4 +3,9 @@
     <string name="app_name">Android Labs</string>
     <string name="hello_message">Mo ki Ile Aye O!</string>
     <string name="ButtonText">Mo jẹ bọtini</string>
+    <string name="textViewMsg">Wo GUI mi</string>
+    <string name="flagButtonText">Kiliki ibi</string>
+    <string name="checkBoxText">Yẹ eléyìí wò!</string>
+    <string name="switchText">Tan-an / Pa</string>
+    <string name="hint_message">Tẹ ibi</string>
 </resources>
