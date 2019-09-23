@@ -7,4 +7,15 @@
     <string name="checkBoxText">Check this out!</string>
     <string name="switchText">Switch on / off</string>
     <string name="hint_message">Type here</string>
+    <string name="emailTextView">Enter your email address:</string>
+    <string name="emailTextEdit">Type email here</string>
+    <string name="passwordTextView">Type your password:</string>
+    <string name="loginButton">LOGIN</string>
+    <string name="yourProfile">Your profile</string>
+    <string name="yourName">Your name:</string>
+    <string name="enterYourName">Enter your name</string>
+    <string name="yourEmail">Your email:</string>
+    <string name="enterYourEmail">Enter your email</string>
+    <string name="yourPicture">Your picture:</string>
+    <string name="clickButtonAbove">Click the button above to take a picture</string>
 </resources>

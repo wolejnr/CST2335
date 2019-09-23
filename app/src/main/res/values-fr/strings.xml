@@ -8,4 +8,15 @@
     <string name="checkBoxText">Regarde ça!</string>
     <string name="switchText">Allumer/éteindre</string>
     <string name="hint_message">Écrivez ici</string>
+    <string name="emailTextView">Entrez votre adresse email:</string>
+    <string name="emailTextEdit">Tapez email ici</string>
+    <string name="passwordTextView">Tapez votre mot de passe:</string>
+    <string name="loginButton">S\'IDENTIFIER</string>
+    <string name="yourProfile">Votre profil</string>
+    <string name="yourName">Votre nom:</string>
+    <string name="enterYourName">Entrez votre nom</string>
+    <string name="yourEmail">Votre email:</string>
+    <string name="enterYourEmail">Entrer votre Email</string>
+    <string name="yourPicture">Ta photo:</string>
+    <string name="clickButtonAbove">Cliquez sur le bouton ci-dessus pour prendre une photo</string>
 </resources>

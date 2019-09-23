@@ -8,4 +8,15 @@
     <string name="checkBoxText">Yẹ eléyìí wò!</string>
     <string name="switchText">Tan-an / Pa</string>
     <string name="hint_message">Tẹ ibi</string>
+    <string name="emailTextView">Tẹ adirẹsi imeeli rẹ:</string>
+    <string name="emailTextEdit">Tẹ imeeli nibi</string>
+    <string name="passwordTextView">Tẹ ọrọ iwọle rẹ:</string>
+    <string name="loginButton">WO ILE</string>
+    <string name="yourProfile">Profaili Rẹ</string>
+    <string name="yourName">Orukọ rẹ:</string>
+    <string name="enterYourName">Tẹ orukọ rẹ</string>
+    <string name="yourEmail">Imeeli rẹ:</string>
+    <string name="enterYourEmail">Tẹ imeeli rẹ</string>
+    <string name="yourPicture">Aworan rẹ:</string>
+    <string name="clickButtonAbove">Tẹ bọtini ti o wa loke lati ya aworan</string>
 </resources>
