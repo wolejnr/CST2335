@@ -17,6 +17,7 @@ public class ProfileActivity extends AppCompatActivity {
     private EditText editTextName;
     private EditText editTextEmailR;
     private ImageButton buttonSnap;
+    private Button chatButton;
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
     public static final String ACTIVITY_NAME = "PROFILE_ACTIVITY";
@@ -32,6 +33,8 @@ public class ProfileActivity extends AppCompatActivity {
         editTextEmailR = (EditText) findViewById(R.id.editTextEmailR);
         buttonSnap = (ImageButton) findViewById(R.id.buttonSnap);
 
+        chatButton = (Button) findViewById(R.id.buttonChat);
+
         // get intent from MainActivity
         Intent mainIntent = getIntent();
         editTextEmailR.setText(mainIntent.getStringExtra("email"));
@@ -42,6 +45,16 @@ public class ProfileActivity extends AppCompatActivity {
                 dispatchTakePictureIntent();
             }
         });
+
+        // Implement Go to Chat functionality
+        chatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent chatActivity = new Intent(ProfileActivity.this, ChatRoomActivity.class);
+                startActivity(chatActivity);
+            }
+        });
+
     }
 
     private void dispatchTakePictureIntent() {

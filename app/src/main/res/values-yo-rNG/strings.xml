@@ -19,4 +19,7 @@
     <string name="enterYourEmail">Tẹ imeeli rẹ</string>
     <string name="yourPicture">Aworan rẹ:</string>
     <string name="clickButtonAbove">Tẹ bọtini ti o wa loke lati ya aworan</string>
+    <string name="go_to_chat">Lọ si iwiregbe</string>
+    <string name="send">Firanṣẹ</string>
+    <string name="receive">Gba</string>
 </resources>
