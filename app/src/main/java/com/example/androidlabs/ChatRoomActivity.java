@@ -71,7 +71,7 @@ public class ChatRoomActivity extends AppCompatActivity {
             // Add the new chat to the array list
             chats.add(new Message(message, messageType, id));
         }
-        
+
 
         // Create an adapter and send it to the list view
         adapter = new ChatAdapter(chats, this);
