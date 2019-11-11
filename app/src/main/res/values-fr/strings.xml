@@ -22,4 +22,5 @@
     <string name="go_to_chat">Aller discuter</string>
     <string name="send">Envoyer</string>
     <string name="receive">Recevoir</string>
+    <string name="weather">Prévisions météorologiques</string>
 </resources>

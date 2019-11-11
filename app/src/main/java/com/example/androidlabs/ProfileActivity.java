@@ -18,6 +18,7 @@ public class ProfileActivity extends AppCompatActivity {
     private EditText editTextEmailR;
     private ImageButton buttonSnap;
     private Button chatButton;
+    private Button weatherButton;
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
     public static final String ACTIVITY_NAME = "PROFILE_ACTIVITY";
@@ -34,6 +35,8 @@ public class ProfileActivity extends AppCompatActivity {
         buttonSnap = (ImageButton) findViewById(R.id.buttonSnap);
 
         chatButton = (Button) findViewById(R.id.buttonChat);
+
+        weatherButton = (Button) findViewById(R.id.buttonWeather);
 
         // get intent from MainActivity
         Intent mainIntent = getIntent();
@@ -52,6 +55,15 @@ public class ProfileActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent chatActivity = new Intent(ProfileActivity.this, ChatRoomActivity.class);
                 startActivity(chatActivity);
+            }
+        });
+
+        // Implement Weather Forecast button functionality
+        weatherButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent weatherActivity = new Intent(ProfileActivity.this, WeatherForecast.class);
+                startActivity(weatherActivity);
             }
         });
 
