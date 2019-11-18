@@ -19,6 +19,7 @@ public class ProfileActivity extends AppCompatActivity {
     private ImageButton buttonSnap;
     private Button chatButton;
     private Button weatherButton;
+    private Button toolbarButton;
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
     public static final String ACTIVITY_NAME = "PROFILE_ACTIVITY";
@@ -37,6 +38,8 @@ public class ProfileActivity extends AppCompatActivity {
         chatButton = (Button) findViewById(R.id.buttonChat);
 
         weatherButton = (Button) findViewById(R.id.buttonWeather);
+
+        toolbarButton = (Button) findViewById(R.id.buttonToolbar);
 
         // get intent from MainActivity
         Intent mainIntent = getIntent();
@@ -64,6 +67,15 @@ public class ProfileActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent weatherActivity = new Intent(ProfileActivity.this, WeatherForecast.class);
                 startActivity(weatherActivity);
+            }
+        });
+
+        // Implement the Go To Toolbar page button
+        toolbarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent toolbarActivity = new Intent(ProfileActivity.this, TestToolbar.class);
+                startActivity(toolbarActivity);
             }
         });
 

@@ -22,4 +22,9 @@
     <string name="send">Send</string>
     <string name="receive">Receive</string>
     <string name="weather">Weather Forecast</string>
+    <string name="go_to_toolbar">Go to Toolbar page</string>
+    <string name="item1">Choice 1</string>
+    <string name="item2">Choice 2</string>
+    <string name="item3">Choice 3</string>
+    <string name="new_message">What is your new message?</string>
 </resources>

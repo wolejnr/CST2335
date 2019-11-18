@@ -23,4 +23,9 @@
     <string name="send">Firanṣẹ</string>
     <string name="receive">Gba</string>
     <string name="weather">Àfojúsùn ojú ọjọ</string>
+    <string name="go_to_toolbar">Lọ si oju-iwe Ọpa</string>
+    <string name="item1">Yiyan 1</string>
+    <string name="item2">Yiyan 2</string>
+    <string name="item3">Yiyan 3</string>
+    <string name="new_message">Kini ifiranṣẹ tuntun rẹ?</string>
 </resources>

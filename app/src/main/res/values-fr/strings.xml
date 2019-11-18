@@ -23,4 +23,9 @@
     <string name="send">Envoyer</string>
     <string name="receive">Recevoir</string>
     <string name="weather">Prévisions météorologiques</string>
+    <string name="go_to_toolbar">Aller à la page Barre d\'outils</string>
+    <string name="item1">Choix 1</string>
+    <string name="item2">Choix 2</string>
+    <string name="item3">Choix 3</string>
+    <string name="new_message">Quel est ton nouveau message?</string>
 </resources>
